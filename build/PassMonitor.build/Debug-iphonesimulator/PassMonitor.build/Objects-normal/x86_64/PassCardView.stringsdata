@@ -1,0 +1,48 @@
+{
+  "source": "/Users/juanjodiazdeargandona/Desktop/APPS/PassMonitor/PassMonitor/PassCardView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Open",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "Closed",
+        "location": {
+          "startingColumn": 62,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lldm",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "year-round",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "Opens",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 88
+        }
+      }
+    ]
+  },
+  "version": 1
+}

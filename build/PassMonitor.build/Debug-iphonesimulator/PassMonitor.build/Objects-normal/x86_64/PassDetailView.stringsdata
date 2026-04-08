@@ -1,0 +1,64 @@
+{
+  "source": "/Users/juanjodiazdeargandona/Desktop/APPS/PassMonitor/PassMonitor/PassDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "STATUS",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 11
+        }
+      },
+      {
+        "comment": "",
+        "key": "Opens: %@",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Closed",
+        "location": {
+          "startingColumn": 58,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "HISTORICAL WINDOW",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open year-round",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "WEEKEND FORECAST",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 70
+        }
+      }
+    ]
+  },
+  "version": 1
+}

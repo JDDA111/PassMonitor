@@ -1,0 +1,40 @@
+{
+  "source": "/Users/juanjodiazdeargandona/Desktop/APPS/PassMonitor/PassMonitor/MapTabView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "🗓 Opens: %@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "✅ OPEN",
+        "location": {
+          "startingColumn": 57,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "🔴 CLOSED",
+        "location": {
+          "startingColumn": 70,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lldm",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 75
+        }
+      }
+    ]
+  },
+  "version": 1
+}

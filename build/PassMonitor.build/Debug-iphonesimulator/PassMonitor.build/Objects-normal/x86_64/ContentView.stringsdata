@@ -1,0 +1,72 @@
+{
+  "source": "/Users/juanjodiazdeargandona/Desktop/APPS/PassMonitor/PassMonitor/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": " Alps",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pass Monitor %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld passes",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "SORT",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 136
+        }
+      },
+      {
+        "comment": "",
+        "key": "▲",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 162
+        }
+      },
+      {
+        "comment": "",
+        "key": "▼",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 162
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sources: alpen-paesse.ch · Wikipedia",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 197
+        }
+      },
+      {
+        "comment": "",
+        "key": "Today",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 191
+        }
+      }
+    ]
+  },
+  "version": 1
+}
