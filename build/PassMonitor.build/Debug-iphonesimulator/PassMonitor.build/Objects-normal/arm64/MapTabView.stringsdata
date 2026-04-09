@@ -7,7 +7,7 @@
         "key": "🗓 Opens: %@",
         "location": {
           "startingColumn": 38,
-          "startingLine": 87
+          "startingLine": 88
         }
       },
       {
@@ -15,7 +15,7 @@
         "key": "✅ OPEN",
         "location": {
           "startingColumn": 57,
-          "startingLine": 81
+          "startingLine": 82
         }
       },
       {
@@ -23,7 +23,7 @@
         "key": "🔴 CLOSED",
         "location": {
           "startingColumn": 70,
-          "startingLine": 81
+          "startingLine": 82
         }
       },
       {
@@ -31,7 +31,7 @@
         "key": "%lldm",
         "location": {
           "startingColumn": 38,
-          "startingLine": 75
+          "startingLine": 76
         }
       }
     ]

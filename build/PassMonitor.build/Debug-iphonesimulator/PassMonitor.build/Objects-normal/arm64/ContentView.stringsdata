@@ -7,7 +7,7 @@
         "key": "%lld passes",
         "location": {
           "startingColumn": 26,
-          "startingLine": 59
+          "startingLine": 62
         }
       },
       {
@@ -15,7 +15,7 @@
         "key": "Pass Monitor",
         "location": {
           "startingColumn": 30,
-          "startingLine": 51
+          "startingLine": 54
         }
       },
       {
@@ -23,7 +23,7 @@
         "key": "Alps",
         "location": {
           "startingColumn": 30,
-          "startingLine": 54
+          "startingLine": 57
         }
       },
       {
@@ -31,7 +31,7 @@
         "key": "SORT",
         "location": {
           "startingColumn": 22,
-          "startingLine": 143
+          "startingLine": 146
         }
       },
       {
@@ -39,7 +39,7 @@
         "key": "▲",
         "location": {
           "startingColumn": 42,
-          "startingLine": 169
+          "startingLine": 172
         }
       },
       {
@@ -47,7 +47,7 @@
         "key": "▼",
         "location": {
           "startingColumn": 50,
-          "startingLine": 169
+          "startingLine": 172
         }
       },
       {
@@ -55,7 +55,7 @@
         "key": "Sources: alpen-paesse.ch · Wikipedia",
         "location": {
           "startingColumn": 18,
-          "startingLine": 204
+          "startingLine": 207
         }
       },
       {
@@ -63,7 +63,7 @@
         "key": "Today",
         "location": {
           "startingColumn": 26,
-          "startingLine": 198
+          "startingLine": 201
         }
       }
     ]

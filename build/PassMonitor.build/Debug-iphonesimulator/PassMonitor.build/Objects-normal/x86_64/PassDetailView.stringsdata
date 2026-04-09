@@ -7,7 +7,7 @@
         "key": "STATUS",
         "location": {
           "startingColumn": 22,
-          "startingLine": 11
+          "startingLine": 12
         }
       },
       {
@@ -15,7 +15,7 @@
         "key": "Opens: %@",
         "location": {
           "startingColumn": 27,
-          "startingLine": 30
+          "startingLine": 31
         }
       },
       {
@@ -23,7 +23,7 @@
         "key": "Open",
         "location": {
           "startingColumn": 49,
-          "startingLine": 23
+          "startingLine": 24
         }
       },
       {
@@ -31,7 +31,7 @@
         "key": "Closed",
         "location": {
           "startingColumn": 58,
-          "startingLine": 23
+          "startingLine": 24
         }
       },
       {
@@ -39,7 +39,7 @@
         "key": "HISTORICAL WINDOW",
         "location": {
           "startingColumn": 26,
-          "startingLine": 44
+          "startingLine": 45
         }
       },
       {
@@ -47,7 +47,7 @@
         "key": "Open year-round",
         "location": {
           "startingColumn": 26,
-          "startingLine": 61
+          "startingLine": 62
         }
       },
       {
@@ -55,7 +55,7 @@
         "key": "WEEKEND FORECAST",
         "location": {
           "startingColumn": 22,
-          "startingLine": 70
+          "startingLine": 71
         }
       }
     ]

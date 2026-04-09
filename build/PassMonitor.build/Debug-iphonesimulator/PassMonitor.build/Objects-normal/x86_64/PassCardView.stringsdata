@@ -7,7 +7,7 @@
         "key": "Open",
         "location": {
           "startingColumn": 53,
-          "startingLine": 49
+          "startingLine": 50
         }
       },
       {
@@ -15,7 +15,7 @@
         "key": "Closed",
         "location": {
           "startingColumn": 62,
-          "startingLine": 49
+          "startingLine": 50
         }
       },
       {
@@ -23,7 +23,7 @@
         "key": "%lldm",
         "location": {
           "startingColumn": 42,
-          "startingLine": 33
+          "startingLine": 34
         }
       },
       {
@@ -31,7 +31,7 @@
         "key": "year-round",
         "location": {
           "startingColumn": 46,
-          "startingLine": 37
+          "startingLine": 38
         }
       },
       {
@@ -39,7 +39,7 @@
         "key": "Opens",
         "location": {
           "startingColumn": 38,
-          "startingLine": 88
+          "startingLine": 95
         }
       }
     ]
