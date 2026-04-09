@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct PassDetailView: View {
+    @EnvironmentObject var weatherVM: WeatherViewModel
     let pass: AlpinePass
     
     var body: some View {
@@ -74,8 +75,14 @@ struct PassDetailView: View {
                     .foregroundStyle(Theme.dim)
                 
                 HStack(spacing: 8) {
-                    WeatherBadge(label: "Mar 28–29", forecast: pass.wx1)
-                    WeatherBadge(label: "Apr 4–5", forecast: pass.wx2)
+                    WeatherBadge(
+                        label: weatherVM.weekendDates.label1,
+                        forecast: weatherVM.forecasts[pass.id]?.wx1 ?? pass.wx1
+                    )
+                    WeatherBadge(
+                        label: weatherVM.weekendDates.label2,
+                        forecast: weatherVM.forecasts[pass.id]?.wx2 ?? pass.wx2
+                    )
                 }
             }
             

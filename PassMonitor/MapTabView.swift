@@ -2,6 +2,7 @@ import SwiftUI
 import MapKit
 
 struct MapTabView: View {
+    @EnvironmentObject var weatherVM: WeatherViewModel
     @State private var position: MapCameraPosition = .region(
         MKCoordinateRegion(
             center: CLLocationCoordinate2D(latitude: 46.2, longitude: 9.0),
@@ -97,8 +98,14 @@ struct MapTabView: View {
                             
                             // Weather
                             HStack(spacing: 8) {
-                                WeatherBadge(label: "Wknd 1", forecast: pass.wx1)
-                                WeatherBadge(label: "Wknd 2", forecast: pass.wx2)
+                                WeatherBadge(
+                                    label: weatherVM.weekendDates.label1,
+                                    forecast: weatherVM.forecasts[pass.id]?.wx1 ?? pass.wx1
+                                )
+                                WeatherBadge(
+                                    label: weatherVM.weekendDates.label2,
+                                    forecast: weatherVM.forecasts[pass.id]?.wx2 ?? pass.wx2
+                                )
                             }
                             .padding(.top, 4)
                         }

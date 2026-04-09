@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var weatherVM = WeatherViewModel()
     @State private var selectedTab = 0
     @State private var sortOption: SortOption = .earliestOpen
     @State private var sortAscending = true
@@ -39,6 +40,8 @@ struct ContentView: View {
         .background(Theme.bg)
         .ignoresSafeArea(edges: .bottom)
         .preferredColorScheme(.dark)
+        .environmentObject(weatherVM)
+        .task { await weatherVM.fetchAll(passes: alpinePasses) }
     }
     
     // MARK: - Header
