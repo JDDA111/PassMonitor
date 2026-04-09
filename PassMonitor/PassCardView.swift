@@ -79,8 +79,8 @@ struct PassCardView: View {
                     
                     // Weather row
                     HStack(spacing: 8) {
-                        WeatherBadge(label: "Mar 28–29", forecast: pass.wx1)
-                        WeatherBadge(label: "Apr 4–5", forecast: pass.wx2)
+                        WeatherBadge(label: "Apr 11–12", forecast: pass.wx1)
+                        WeatherBadge(label: "Apr 18–19", forecast: pass.wx2)
                         
                         if let openDate = pass.openDate {
                             Spacer()

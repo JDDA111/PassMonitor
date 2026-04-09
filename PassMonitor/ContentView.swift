@@ -24,18 +24,20 @@ struct ContentView: View {
         VStack(spacing: 0) {
             // Header
             header
-            
+
             // Tab content
             TabView(selection: $selectedTab) {
                 ganttTab
                     .tag(0)
-                
+
                 MapTabView()
                     .tag(1)
             }
             .tabViewStyle(.page(indexDisplayMode: .never))
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
         .background(Theme.bg)
+        .ignoresSafeArea(edges: .bottom)
         .preferredColorScheme(.dark)
     }
     
@@ -45,9 +47,14 @@ struct ContentView: View {
             // Title row
             HStack(alignment: .bottom) {
                 VStack(alignment: .leading, spacing: 2) {
-                    Text("Pass Monitor \(Text(" Alps").font(.system(size: 18, weight: .bold, design: .serif)).foregroundStyle(Theme.blue))")
-                        .font(.system(size: 28, weight: .black, design: .serif))
-                        .foregroundStyle(Theme.text)
+                    HStack(alignment: .lastTextBaseline, spacing: 4) {
+                        Text("Pass Monitor")
+                            .font(.system(size: 28, weight: .black, design: .serif))
+                            .foregroundStyle(Theme.text)
+                        Text("Alps")
+                            .font(.system(size: 18, weight: .bold, design: .serif))
+                            .foregroundStyle(Theme.blue)
+                    }
                     
                     Text("\(alpinePasses.count) passes")
                         .font(.caption)

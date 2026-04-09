@@ -103,49 +103,49 @@ let alpinePasses: [AlpinePass] = [
                sourceURL: "https://www.alpen-paesse.ch/en/alpenpaesse/berninapass/",
                status: .open, note: "Open, snow covered. Winter tyres obligatory.",
                openDate: nil,
-               wx1: WeatherForecast(icon: "❄️", hi: -2, lo: -8),
-               wx2: WeatherForecast(icon: "⛅", hi: 2, lo: -5)),
-    
+               wx1: WeatherForecast(icon: "⛅", hi: 0, lo: -4),
+               wx2: WeatherForecast(icon: "🌨", hi: -2, lo: -9)),
+
     AlpinePass(id: "julier", name: "Julier Pass", country: .CH, elevation: 2284,
                lat: 46.470, lon: 9.732, yearRound: true, history: nil,
                sourceURL: "https://www.alpen-paesse.ch/en/alpenpaesse/julierpass/",
                status: .open, note: "Snow chains obligatory excl. 4WD.",
                openDate: nil,
-               wx1: WeatherForecast(icon: "❄️", hi: -1, lo: -7),
-               wx2: WeatherForecast(icon: "⛅", hi: 3, lo: -4)),
-    
+               wx1: WeatherForecast(icon: "🌫", hi: 8, lo: 1),
+               wx2: WeatherForecast(icon: "🌨", hi: 5, lo: -2)),
+
     AlpinePass(id: "maloja", name: "Maloja Pass", country: .CH, elevation: 1815,
                lat: 46.401, lon: 9.697, yearRound: true, history: nil,
                sourceURL: "https://www.alpen-paesse.ch/en/alpenpaesse/malojapass/",
                status: .open, note: "Open, no restrictions.",
                openDate: nil,
-               wx1: WeatherForecast(icon: "⛅", hi: 2, lo: -4),
-               wx2: WeatherForecast(icon: "🌤", hi: 7, lo: 0)),
-    
+               wx1: WeatherForecast(icon: "⛅", hi: 10, lo: 3),
+               wx2: WeatherForecast(icon: "🌨", hi: 8, lo: 1)),
+
     AlpinePass(id: "ofen", name: "Fuorn / Ofen Pass", country: .CH, elevation: 2149,
                lat: 46.633, lon: 10.290, yearRound: true, history: nil,
                sourceURL: "https://www.alpen-paesse.ch/en/alpenpaesse/ofenpass/",
                status: .open, note: "Open, snow covered. Winter tyres obligatory.",
                openDate: nil,
-               wx1: WeatherForecast(icon: "❄️", hi: -3, lo: -9),
-               wx2: WeatherForecast(icon: "⛅", hi: 1, lo: -5)),
-    
+               wx1: WeatherForecast(icon: "🌨", hi: 7, lo: 0),
+               wx2: WeatherForecast(icon: "🌧", hi: 6, lo: -2)),
+
     AlpinePass(id: "simplon", name: "Simplon Pass", country: .CH, elevation: 2009,
                lat: 46.251, lon: 8.033, yearRound: true, history: nil,
                sourceURL: "https://www.alpen-paesse.ch/en/alpenpaesse/simplonpass/",
                status: .open, note: "Open. Snow covered, closed for truck-trailers.",
                openDate: nil,
-               wx1: WeatherForecast(icon: "🌨", hi: -1, lo: -7),
-               wx2: WeatherForecast(icon: "⛅", hi: 3, lo: -3)),
-    
+               wx1: WeatherForecast(icon: "🌧", hi: 9, lo: 3),
+               wx2: WeatherForecast(icon: "🌫", hi: 4, lo: -3)),
+
     // ── Year-round FR ──
     AlpinePass(id: "lautaret", name: "Col du Lautaret", country: .FR, elevation: 2058,
                lat: 45.034, lon: 6.407, yearRound: true, history: nil,
                sourceURL: "https://www.hautesvallees.com/",
                status: .open, note: "Open all year. May close temporarily in severe weather.",
                openDate: nil,
-               wx1: WeatherForecast(icon: "🌨", hi: -2, lo: -7),
-               wx2: WeatherForecast(icon: "⛅", hi: 2, lo: -3)),
+               wx1: WeatherForecast(icon: "🌦", hi: 8, lo: 3),
+               wx2: WeatherForecast(icon: "🌨", hi: 7, lo: 1)),
     
     // ── Seasonal CH ──
     AlpinePass(id: "fluela", name: "Flüela Pass", country: .CH, elevation: 2383,
